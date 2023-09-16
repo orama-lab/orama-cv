@@ -1,5 +1,4 @@
 [workspace]
-members = [
-    "orama-image"
-]
+members = ["orama-image"]
+resolver = "2"
 
