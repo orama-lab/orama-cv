@@ -1,7 +1,2 @@
-pub struct Image;
-
-impl Image {
-    pub fn new() -> Self {
-        Self
-    }
-}
+mod pixel;
+mod buffer;
