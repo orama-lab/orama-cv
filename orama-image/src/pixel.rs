@@ -1,3 +1,4 @@
+/// Pixel is a trait that defines the interface for a pixel.
 pub trait Pixel {
     // The type of data that is used to store each component of the pixel.
     type Component: Copy + Default;

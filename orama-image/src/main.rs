@@ -1,5 +1,5 @@
-use orama_image::{Buffer, Rgb};
+use orama_image::{Format, Image};
 
 fn main() {
-    let _image = Buffer::<Rgb>::new(10, 10);
+    let _image = Image::new(640, 480, Format::Rgb);
 }
